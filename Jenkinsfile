@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'serverclient'}
+    agent {label 'serverclientLinux'}
     stages {
         stage('Build') { 
             steps {
